@@ -1,0 +1,11 @@
+<view class="root">
+  <view class="notifycation-bar" style="height:{{startBarHeight}}px" />
+  <view class="titlebar" style='height:{{navgationHeight}}px'>
+    <image class="back-icon" src="./image/ic-back.png" bindtap="bindBack"></image>
+    <text class="title-txt">测测你是具有哪种神秘的能力</text>
+  </view>
+  <view class="container" bindtap="bindEnter">
+    <image src='http://image.biaobaiju.com/uploads/20180211/02/1518286057-rkOALfcGEj.jpg' style="width:100%;height100%"></image>
+  
+  </view>
+</view>

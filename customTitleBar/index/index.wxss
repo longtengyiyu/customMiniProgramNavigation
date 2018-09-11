@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-style{
+  width: 340rpx;
+  height: 80rpx;
+  display: flex;
+  position: relative;
+  bottom: 200rpx;
+  background: rgba(255, 255, 255, 0);
+  border: #fff solid;
+  border-width: 2rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 40rpx;
+  justify-content: center;
+  align-items: center;
+}

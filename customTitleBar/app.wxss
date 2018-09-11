@@ -1,0 +1,44 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.notifycation-bar{
+  background: #fff;
+  width: 100%;
+}
+
+.titlebar{
+  display: flex;
+  width: 100%;
+  font-size: 32rpx;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-txt{
+  width:400rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.title-root{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 0
+}
+
+.back-icon{
+  display: flex;
+  position: absolute;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  left: 0rpx;
+  width:22rpx;
+  height: 40rpx;
+  margin-top: 6rpx;
+}

@@ -1,0 +1,6 @@
+<view class="title-root">
+  <view class="titlebar" style='height:{{navgationHeight}}px;padding-top:{{startPaddingTop}}px'>
+    <image class="back-icon" src="../image/ic-back.png" bindtap="bindBack"></image>
+    <text class="title-txt">标题</text>
+  </view>
+</view>

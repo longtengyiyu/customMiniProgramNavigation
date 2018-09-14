@@ -1,15 +1,15 @@
-.root{
+.root {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
-.notifycation-bar{
+.notifycation-bar {
   background: #fff;
   width: 100%;
 }
 
-.titlebar{
+.titlebar {
   display: flex;
   width: 100%;
   font-size: 32rpx;
@@ -18,27 +18,47 @@
   align-items: center;
 }
 
-.title-txt{
-  width:400rpx;
+.title-txt {
+  display: flex;
+  width: 480rpx;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
-.title-root{
+.title-root {
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 0
+  top: 0;
 }
 
-.back-icon{
+.back-icon {
   display: flex;
   position: absolute;
   padding-left: 40rpx;
   padding-right: 40rpx;
   left: 0rpx;
-  width:22rpx;
+  width: 22rpx;
   height: 40rpx;
   margin-top: 6rpx;
 }
+
+/* 
+@font-face{
+  font-family: 'fz';
+  src: url('https://r.yhres.com/wxmp/FZtype.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 fz;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

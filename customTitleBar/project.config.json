@@ -33,9 +33,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "测试结果",
-					"pathName": "index/result"
+					"id": 0,
+					"name": "主页",
+					"pathName": "index/main",
+					"query": ""
 				}
 			]
 		}

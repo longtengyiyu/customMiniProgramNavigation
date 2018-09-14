@@ -7,7 +7,8 @@ App({
   },
   appData:{
     startBarHeight: 0,
-    navgationHeight: 0
+    navgationHeight: 0,
+    startPaddingTop: 0 //iphx paddingtop
   },
   setNavigation: function () {
     let sHeight = 20
@@ -16,7 +17,9 @@ App({
     wx.getSystemInfo({
       success: function (res) {
         console.log(res.model)
-        if (res.model == 'iPhone X') {
+        that.appData.startPaddingTop = 20
+        if (res.model.indexOf('iPhone X') != -1) {
+          that.appData.startPaddingTop = 40
           sHeight = 44
         }
         that.appData.startBarHeight = sHeight,
